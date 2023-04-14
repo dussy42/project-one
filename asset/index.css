@@ -170,6 +170,13 @@ font-weight:15px ;
     border: 2px solid rgba(255, 4, 0, 0.268);
     border-radius: 15px 15px;
  }
+.Listings >div{
+    background-image: url(/asset/luxury3.jpg);
+   
+    height: 99vh;
+    width: 40%;
+    background-repeat: no-repeat;
+}
 
  .Listings img{
     height: 125vh;
