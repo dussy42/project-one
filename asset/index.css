@@ -26,24 +26,8 @@ nav > h2{
     color:rgb(189, 179, 245);
     text-shadow: 3px 2px rgba(222, 184, 135, 0.41);
     
-    animation-name: roll;
-    animation-duration: 8s;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    animation-direction: linear;
-
 }
- @keyframes roll{
-        0%{
-            color:beige; top:0px; right:0px;
-        }
 
-        50%{
-           color: inherit; top:2px; right: 2px;
-           margin-left: 15px;
-           letter-spacing: 3px;
-        }
- }
 
  nav> a{
     text-align: center;
@@ -66,7 +50,9 @@ nav > h2{
     transition: 5s;
     transition-delay: 1s;
     color:blue;
-    flex-grow: 0.3;
+    flex-grow: 0.05;
+    flex-direction: column;
+    background-color: blanchedalmond;
 
  }
  
@@ -162,28 +148,87 @@ font-weight:15px ;
  }
 
  .Listings{
-    height: 220vh;
+    height: 230vh;
     width:95% ;
     margin-top: 75px;
     margin-left: 14px;
-    background-color: bisque;
+    padding-left: 10px;
     border: 2px solid rgba(255, 4, 0, 0.268);
-    border-radius: 15px 15px;
- }
-.Listings >div{
-    background-image: url(/asset/luxury3.jpg);
+    border-radius: 10px 10px;
    
-    height: 99vh;
-    width: 40%;
-    background-repeat: no-repeat;
-}
+ }
+
+
+
+
+ .Listings >main{
+    text-align: center;
+    width:100%;
+    height:110vh;
+ }
+
+ .Listings> main >img{
+    width:60%;
+    height: 90vh;
+    
+    
+
+ }
+
+ 
+
+
+
 
  .Listings img{
-    height: 125vh;
-    width: 95%;
-    padding: 5px;
+    height: 45vh;
+    width:19%;
+    padding: 5px 2px;
+    display: flexbox;
+    
  }
 
+ img:nth-child(2){
+    
+    padding-left: 15px;
+ }
+
+ .right-detailsimages{
+    display: flex;
+    text-align: justify;
+ }
+
+ .detailsimages{
+    width:50%
+ }
+
+ .detailsimages >img{
+    height: 73vh;
+    width: 46%;
+
+ }
+
+aside{
+    line-height: 19px;
+    background-color:whitesmoke;
+    font: bold;
+    width: 50%;
+ }
+
+ ol {
+    margin-left: 5px;
+    padding-left: 9px;
+    width: 50%;
+ }
+
+
+ /*
+ img:nth-child(2){
+    width: 20%;
+    height: 40vh;
+
+ }
+/*
  img:nth-child(2){
     width: 20%;
     height: 40vh;
@@ -209,4 +254,32 @@ font-weight:15px ;
    
     
  }
+ */
  
+ .grid{
+   
+    background-image:url(/asset/carousel.jpg);
+    width: 95%;
+    height: 15vh;
+    margin: 6px 17px;
+    padding:10px 12px;
+    color:aliceblue
+ }
+ 
+ .more-about{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50vh;
+    margin: 6px 17px;
+    padding:15px 0 0 25px;
+    line-height: 25px;
+ }
+
+ .about-left{
+ width:35%;
+ }
+ .about-right{
+    margin-top: 11px;
+    width:35%;
+    }
