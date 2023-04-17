@@ -312,3 +312,111 @@ aside{
     width:35%;
     
     }
+
+
+    .services{
+        height: 78vh;
+        width: 90%;
+        display:flexbox;
+        margin-left: 17px;
+        margin-top:120px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: url(/asset/serviceslanding.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .services h1{
+        padding-left: 14px;
+        font-size: xx-large;
+        padding-top: 120px;
+       
+       
+
+    }
+    .services p{
+        padding-left: 550px;
+        line-height: 25px;
+        font-size: x-large;
+        margin-top: -20px;
+    }
+
+    .servicesinfo{
+        display: flex;
+        height: 54vh;
+        width: 90%;
+        margin-left: 17px;
+        justify-content: space-between;
+        
+    }
+
+    .manageproperties{
+        padding: 17px 17px;
+        width:40%;
+        background-color: greenyellow;
+        color:black;
+        line-height: 35px;
+        border: 2px solid;
+        border-radius: 10px 10px;
+    }
+
+    .valuation{
+        
+        padding: 17px 17px;
+        width:40%;
+        background-color: gold;
+        color:green ;
+        line-height: 25px;
+        border: 2px solid;
+        border-radius: 10px 10px;
+    }
+    .valuation ul{
+        padding-left: 14px;
+    }
+
+
+ .newsletter{
+    margin-top: 90px;
+    margin-left: 17px;
+    background-color:goldenrod;
+    height: 24vh;
+    width: 95%;
+    border: 1px solid goldenrod;
+    border-radius: 10px 10px;
+    color: antiquewhite;
+    display: flex;
+    font-weight: bold;
+
+ }
+ .newsletter >div{
+    padding: 16px 40px;
+    width: 50%;
+
+ }
+  div+h1{
+    line-height: 29px;
+  }
+  .newsletter div p{
+    line-height: 24px;
+   }
+
+
+   .newsletter input{
+    width:20%;
+    height: 5vh;
+    margin-top: 45px;
+    padding:2px 15px;
+    color: black;
+    
+   }
+
+   button{
+    color: beige;
+    background-color: rgb(0, 94, 255);
+    width:89px;
+    height: 5vh;
+    position: relative;
+    top:45px;
+   }
+
