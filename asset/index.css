@@ -7,39 +7,41 @@
 }
 
 nav{
-    width:100%;
-    height: 18vh;
+    width:1244px;
+    height: 15vh;
     margin-top: 0px;
-    background-color: rgba(196, 255, 218, 0.595);
+    background-color: grey;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     position:fixed;
+    overflow: hidden;
+    z-index: 9999;
+
 }
 
 nav > h2{
     width: 23%;
-    margin: 15px, 15px;
-    padding: 5px;
+    padding: 15px;
     color: gold;
     text-shadow: 4px 2px gray;  
-    font-size: xx-large;
-
+    font-size: xx-large;  
 }
 
 
  nav> a{
+  
     text-align: center;
-    margin-left: 267px;
+    margin-left: 192px;
     margin-top: 25px;
     padding: 5px;
-    background-color: rgb(255, 255, 127);
+    background-color: goldenrod;
     height: 40px;
     width: 75px;
     border:2px solid beige;
     border-radius:10px ;
     text-decoration: none;
     font-size: large;
-    color:rgb(189, 179, 245);
+    color:white;
     
  }
 
@@ -52,53 +54,93 @@ nav > h2{
 
  }
  
-  
- h2 >span{
-    color:blueviolet;
-    width: 16px;
-    height: 5vh;
-    
- }
 
  
 
  main{
-    height:190vh;
+    height:220vh;
     width: 100%;
-    padding-top: 120px; 
+    padding-top: 87px;
+    border: 2px solid gold;
+    border-radius: 15px 15px;
 
  }
  main >img{
-    margin-left: 10px;
+    margin-left: 9px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 67%;
    
-    padding-left: 50px;
-    width: 65%;
    
  }
 
  main h1{
+    margin-top: 10px;
+    margin-bottom: 9px;
     color: gold;
+    padding-left: 15px;
     text-shadow: 3px 2px gray;
+    background-image:url(/asset/carousel.jpg) ;
+    background-size: cover;
+    width: 100%;
  }
 
- section{
+ main h3{
+ 
+   font-size:x-large;
+   font-weight: bolder;
+   color: darkgoldenrod;
+   padding-left: 15px;
+   text-shadow: 1px 1px gray;  
+
+ }
+
+ .details{
+    width: 27%;
+    margin-left: 3px;
+    line-height:30px;
+    font-weight: bolder;
+    top:210px;
+    left:894px;
+    position: absolute;
+    background-color: rgba(240, 255, 255, 0.01);
+    color:black; 
+ }
+
+ .details h2{
+    color:goldenrod;
+    font-weight: bolder;
+    text-shadow: 1px 1px gray; 
+
+ }
+ .details ul{
+    color:goldenrod;
+    line-height: 60px;
+    padding-left: 34px;
+ }
+
+
+ .katampe-properties{
     height: 65vh;
-    width: 95%;
-    padding-left: 30px;
-    margin-left: 15px;
-    
-    border: 2px solid rgba(255, 4, 0, 0.268);
-    border-radius: 15px 15px;
+    width: 100%;
+    margin-right: 7px;
+    padding-left:15px;
+    margin-left: 2px;
     display: flex;
     overflow:hidden;
  }
 
- section > img{
+ .katampe-properties img:nth-last-child(1){
+    width: 26%;
+ }
+ 
+
+ .katampe-properties> img{
     width:24%;
     height:60vh;
     padding-left: 3px;
     margin-top: 11px;
-    opacity: 1;
+   
  }
 
 
@@ -106,146 +148,96 @@ nav > h2{
     flex-grow: 0.5;
  }
 
- .details{
-    width: 30%;
-    margin-left: 3px;
-    padding-left: 15px;
-    line-height:36px;
-    font-weight: bolder;
-    top:190px;
-    left:1030px;
-    position: absolute;
-    
-    background-color: rgba(240, 255, 255, 0.01);
-   
- }
-
- 
- .details h3{
-    color:rgb(189, 179, 245);
-    font-weight: bolder;
-
- }
-
- hr{
-font-weight:15px ;
- }
-
  
  .Listings{
-    height: 230vh;
-    width:95% ;
-    margin-top: 95px;
-    margin-left: 14px;
+    margin-top: 20px;
+    padding-top: 5px;
     padding-left: 10px;
-    border: 2px solid rgba(255, 4, 0, 0.268);
-    border-radius: 10px 10px;
-   
+    height:160vh;
+    width: 100%;
+    border: 2px solid gold;
+    border-radius: 15px 15px;
+    overflow: hidden;
  }
 
-
-
-
- .Listings >main{
-    text-align: center;
-    width:100%;
-    height:110vh;
-
+ .Listings h2{
+    color:goldenrod;
+    font-weight: bolder;
+    text-shadow: 1px 1px gray; 
+    padding-top: 5px;
  }
 
+ .Listings ul{
 
- .Listings> main >img{
-    width:60%;
+ }
+ .flexcontent{
+    width: 100%;
     height: 90vh;
- }
-
-
-
- .Listings img{
-    height: 45vh;
-    width:19%;
-    padding: 5px 2px;
-    display: flexbox;
-    
- }
-/*
- img:nth-child(2){
-    
-    padding-left: 15px;
- }
- */
-
- .right-detailsimages{
     display: flex;
-    text-align: justify;
- }
-
- .detailsimages{
-    width:50%
- }
-
- .detailsimages >img{
-    height: 73vh;
-    width: 46%;
-
- }
-
-aside{
-    line-height: 19px;
-    background-color:whitesmoke;
-    font: bold;
-    width: 50%;
- }
-
- ol {
-    margin-left: 5px;
-    padding-left: 9px;
-    width: 50%;
+    position: relative;
  }
 
 
- /*
- img:nth-child(2){
-    width: 20%;
-    height: 40vh;
-
- }
-/*
- img:nth-child(2){
-    width: 20%;
-    height: 40vh;
-
+  .flexcontent img:nth-child(1){
+    height: 90vh;
+    width: 68%;
+    flex-grow: 0;
+    padding-top: 20px;
  }
 
- img:nth-child(3){
-    width: 20%;
-    height: 40vh;
-   
-    
+ .aside{
+    color: goldenrod;
+    font:1em;
+    font-weight: bolder;
+    width: 30%;
+    height: 69vh;
+    line-height: 60px;
+    padding-left: 36px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:1000px ;
+    position: absolute;
+}
+
+
+.aside ul {
+    margin-left:9px;
+    line-height: 40px;
+    color: goldenrod;
  }
 
- img:nth-child(4){
-    width: 20%;
-    height: 40vh;
-   
-    
+
+ .Listings address{
+    color: goldenrod;
+    text-shadow: 1px 1px gray; 
  }
- img:nth-child(5){
-    width: 20%;
-    height: 40vh;
-   
-    
+
+ .more-img{
+    height: 65vh;
+    width: 100%;
+    padding-top: 15px;
+    margin-right: 7px;
+    display: flex;
  }
- */
+
+ .more-img img{
+    width:24%;
+    height:60vh;
+    padding-left: 3px;
+ }
+ .more-img img:nth-last-child(1){
+    width: 26%;
+ }
+
  
  .grid{
-   
     background-image:url(/asset/carousel.jpg);
-    width: 95%;
+    background-size: cover;
     height: 15vh;
-    margin: 6px 17px;
-    padding:10px 12px;
-    color:aliceblue;
+    margin-top: 5px;
+    padding:10px 40px;
+    color:goldenrod;
     animation-name: zoom;
     animation-delay: 3s;
             animation-iteration-count: 1;
@@ -254,26 +246,8 @@ aside{
             animation-direction:normal;
             animation-play-state: running;
  }
- 
- .more-about{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 50vh;
-    margin: 6px 17px;
-    padding:15px 0 0 25px;
-    line-height: 25px;
-    color:grey;
-    line-height: 2em;
- }
 
- .about-left >h3{
-    font: 2em sans-serif;
-
-   
-    color:gold;
- }
-  @keyframes zoom{
+ @keyframes zoom{
     0%{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:small;
@@ -295,128 +269,175 @@ aside{
         opacity:1 ;
         font:larger;
         color:aqua;
-        padding-bottom: 27px;
-        
-        
+        padding-bottom: 27px;  
     }
-
   }
+ 
+ .more-about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 62vh;
+    margin: 0px 0px 2px 0px;
+    padding:15px 0 0 25px;
+    font:1.1em;
+    color:white;
+    font-weight: bolder;
+    line-height: 2em;
+    background-color:gray;
+ }
+
+ .about-left >h3{
+    font: 2em sans-serif;
+    color:gold;
+    
+ }
 
  .about-left {
- width:35%;
+    margin-top: 25px;
+    width:45%;
  
  }
 
  .about-right{
-    margin-top: 78px;
-    width:35%;
+    margin-top: 58px;
+    width:45%;
+    padding-right: 15px;
     
     }
 
+   
 
     .services{
-        height: 78vh;
-        width: 90%;
-        display:flexbox;
-        margin-left: 17px;
-        margin-top:120px;
+        height: 73vh;
+        display:block;
+        margin-top:30px;
         font-weight: bold;
-        color: white;
+        color:goldenrod;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background-image: url(/asset/serviceslanding.jpg);
+        background-size:cover ;
         background-repeat: no-repeat;
     }
 
     .services h1{
         padding-left: 14px;
         font-size: xx-large;
+        font: 3em sans-serif;
         padding-top: 120px;
-       
-       
-
+        text-shadow: 3px 2px gray;
     }
     .services p{
         padding-left: 550px;
         line-height: 25px;
         font-size: x-large;
-        margin-top: -20px;
+        padding-top: 50px;
+        text-shadow: 3px 2px gray;
     }
 
     .servicesinfo{
         display: flex;
         height: 54vh;
         width: 90%;
+        margin-top: 5px;
         margin-left: 17px;
-        justify-content: space-between;
+        font: bolder;
+        gap: 15px;
         
     }
 
     .manageproperties{
         padding: 17px 17px;
-        width:40%;
-        background-color: greenyellow;
+        width:75%;
+        background-color:gray;
         color:black;
         line-height: 35px;
         border: 2px solid;
         border-radius: 10px 10px;
+        margin-left: 65px;
+        margin-top: 17px;
+        
     }
 
     .valuation{
+        margin-top: 17px;
+        padding: 27px 17px;
+        width:75%;
+        background-color:gray;
         
-        padding: 17px 17px;
-        width:40%;
-        background-color: gold;
-        color:green ;
         line-height: 25px;
         border: 2px solid;
         border-radius: 10px 10px;
     }
     .valuation ul{
         padding-left: 14px;
+        color: black;
     }
+
+    footer{
+        height: 40vh;
+        width: 100%;
+        color: black;
+       margin: 12px 0;
+       background-color:gray;
+    
+   }
 
 
  .newsletter{
-    margin-top: 90px;
-    margin-left: 17px;
-    background-color:goldenrod;
-    height: 24vh;
-    width: 95%;
-    border: 1px solid goldenrod;
-    border-radius: 10px 10px;
-    color: antiquewhite;
+    margin:30px 17px 0 0;
+    padding: 40px 14px ;
+    height: 34vh;
+    width: 98%;
     display: flex;
     font-weight: bold;
+   justify-content: space-between;
 
  }
+
  .newsletter >div{
-    padding: 16px 40px;
-    width: 50%;
+    padding-left: 27px;
+    width: 30%;
 
  }
   div+h1{
     line-height: 29px;
   }
-  .newsletter div p{
-    line-height: 24px;
+  footer div p{
+    line-height: 29px;
    }
 
 
-   .newsletter input{
-    width:20%;
+  footer .newsletter input{
+    width:22%;
     height: 5vh;
     margin-top: 45px;
-    padding:2px 15px;
+    padding:2px;
     color: black;
     
    }
 
    button{
-    color: beige;
-    background-color: rgb(0, 94, 255);
+    color: black;
+    background-color: greenyellow;
     width:89px;
     height: 5vh;
     position: relative;
     top:45px;
+    margin-right: -73px;
    }
 
+  footer .contact{
+   
+    font: 1.4em bold;
+    line-height: 30px;
+   }
+
+@media only screen and (max-width:900px) {
+    nav{
+        width: 80%;
+        height: 10vh;
+    }
+    
+    
+}
