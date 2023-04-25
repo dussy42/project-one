@@ -6,15 +6,17 @@
     box-sizing: border-box;
 }
 
+.wrapper{
+    width:fit-content;
+}
 nav{
-    width:1244px;
-    height: 15vh;
+    width:100%;
+    height: 14vh;
     margin-top: 0px;
     background-color: grey;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     position:fixed;
-    overflow: hidden;
     z-index: 9999;
 
 }
@@ -24,19 +26,18 @@ nav > h2{
     padding: 15px;
     color: gold;
     text-shadow: 4px 2px gray;  
-    font-size: xx-large;  
+    font-size: x-large;  
 }
-
 
  nav> a{
   
     text-align: center;
-    margin-left: 192px;
+    margin-left: 198px;
     margin-top: 25px;
     padding: 5px;
     background-color: goldenrod;
     height: 40px;
-    width: 75px;
+    width: 90px;
     border:2px solid beige;
     border-radius:10px ;
     text-decoration: none;
@@ -55,71 +56,74 @@ nav > h2{
  }
  
 
- 
-
  main{
-    height:220vh;
+    height:180vh;
     width: 100%;
     padding-top: 87px;
     border: 2px solid gold;
     border-radius: 15px 15px;
-
- }
- main >img{
-    margin-left: 9px;
-    padding-left: 10px;
-    padding-top: 10px;
-    width: 67%;
-   
-   
  }
 
  main h1{
     margin-top: 10px;
     margin-bottom: 9px;
     color: gold;
+    padding-top: 15px;
     padding-left: 15px;
     text-shadow: 3px 2px gray;
     background-image:url(/asset/carousel.jpg) ;
-    background-size: cover;
+    background-image: cover;
+    height: 10vh;
     width: 100%;
+ }
+
+ .flex{
+   width: 100%;
+ }
+
+ .flex>img{
+    float: left;
+    width: 65%;
+    height: 85vh;
+    
  }
 
  main h3{
  
-   font-size:x-large;
-   font-weight: bolder;
-   color: darkgoldenrod;
-   padding-left: 15px;
-   text-shadow: 1px 1px gray;  
+    font-size:x-large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+    padding-left: 15px;
+    text-shadow: 1px 1px gray;  
+ 
+  }
 
- }
-
- .details{
-    width: 27%;
-    margin-left: 3px;
+   .details{
     line-height:30px;
     font-weight: bolder;
     top:210px;
-    left:894px;
-    position: absolute;
-    background-color: rgba(240, 255, 255, 0.01);
-    color:black; 
+    float: right;
+    margin-right: 50px;
+
  }
 
  .details h2{
     color:goldenrod;
     font-weight: bolder;
     text-shadow: 1px 1px gray; 
+    margin-left:15px;
+ }
+
+ .details hr{
+    margin-left:15px;
 
  }
  .details ul{
     color:goldenrod;
-    line-height: 60px;
+    line-height: 40px;
     padding-left: 34px;
  }
-
-
+ 
  .katampe-properties{
     height: 65vh;
     width: 100%;
@@ -143,7 +147,6 @@ nav > h2{
    
  }
 
-
  img:hover{
     flex-grow: 0.5;
  }
@@ -153,7 +156,7 @@ nav > h2{
     margin-top: 20px;
     padding-top: 5px;
     padding-left: 10px;
-    height:160vh;
+    height:165vh;
     width: 100%;
     border: 2px solid gold;
     border-radius: 15px 15px;
@@ -167,45 +170,31 @@ nav > h2{
     padding-top: 5px;
  }
 
- .Listings ul{
-
- }
  .flexcontent{
     width: 100%;
     height: 90vh;
-    display: flex;
-    position: relative;
  }
 
-
-  .flexcontent img:nth-child(1){
-    height: 90vh;
-    width: 68%;
+ .flexcontent img:nth-child(1){
+    height: 85vh;
+    width: 65%;
     flex-grow: 0;
     padding-top: 20px;
+    float: left;
  }
 
  .aside{
     color: goldenrod;
     font:1em;
     font-weight: bolder;
-    width: 30%;
-    height: 69vh;
-    line-height: 60px;
+    text-align: left;
+    line-height: 40px;
     padding-left: 36px;
-    padding-top: 0px;
+    margin-right: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left:1000px ;
-    position: absolute;
+    float: right;
 }
-
-
-.aside ul {
-    margin-left:9px;
-    line-height: 40px;
-    color: goldenrod;
- }
 
 
  .Listings address{
@@ -309,7 +298,7 @@ nav > h2{
    
 
     .services{
-        height: 73vh;
+        height: 75vh;
         display:block;
         margin-top:30px;
         font-weight: bold;
@@ -346,46 +335,54 @@ nav > h2{
         
     }
 
+    .servicesinfo h2{
+        color: goldenrod;
+    }
+
     .manageproperties{
         padding: 17px 17px;
-        width:75%;
+        width:120%;
         background-color:gray;
-        color:black;
-        line-height: 35px;
+        color:whitesmoke;
+        line-height: 40px;
         border: 2px solid;
         border-radius: 10px 10px;
         margin-left: 65px;
         margin-top: 17px;
+        height: 50vh;
         
     }
 
     .valuation{
         margin-top: 17px;
         padding: 27px 17px;
-        width:75%;
+        height: 50vh;
+        width:120%;
         background-color:gray;
-        
-        line-height: 25px;
+        color: white;
+        line-height: 30px;
         border: 2px solid;
         border-radius: 10px 10px;
     }
+
     .valuation ul{
-        padding-left: 14px;
-        color: black;
+        margin-left: 44px;
+        color: white;
     }
 
     footer{
         height: 40vh;
         width: 100%;
-        color: black;
-       margin: 12px 0;
+        color: white;
+       margin: 25px 0;
        background-color:gray;
+       margin-top: 55px;
+       
     
    }
 
-
  .newsletter{
-    margin:30px 17px 0 0;
+    margin:45px 17px 0 0;
     padding: 40px 14px ;
     height: 34vh;
     width: 98%;
@@ -407,7 +404,6 @@ nav > h2{
     line-height: 29px;
    }
 
-
   footer .newsletter input{
     width:22%;
     height: 5vh;
@@ -424,7 +420,7 @@ nav > h2{
     height: 5vh;
     position: relative;
     top:45px;
-    margin-right: -73px;
+    margin-left: 73px;
    }
 
   footer .contact{
@@ -433,11 +429,675 @@ nav > h2{
     line-height: 30px;
    }
 
-@media only screen and (max-width:900px) {
+   @media only screen and (max-width:1196px) {
+
+    .flexcontent img:nth-child(1){
+        width: 62%;
+     }
+   }
+   
+   @media only screen and (max-width:1192px) {
+    .manageproperties{
+        line-height: 25px;
+        height:51vh ;
+    }
+
+    .valuation{
+        line-height: 25px;
+        height:51vh ;
+    }
+
+}
+
+@media only screen and (max-width:1154px){
+    main h1{
+        margin-top: 5px;
+    }
+
+    nav>a{
+        margin-left: 170px;
+    }
+
+    .manageproperties{
+        line-height: 18px;
+        height:52vh ;
+    }
+
+    .valuation{
+        line-height: 22px;
+        height:52vh ;
+    }
+}
+@media only screen and (max-width:1115px){
+    .flex >img{
+        width: 57%;
+     }
+    
+     footer .contact{
+        line-height: 28px;
+        width: 34%;
+       }
+}
+
+@media only screen and (max-width:1102px){
+    .flexcontent img:nth-child(1){
+        width: 60%;
+     }
+}
+
+@media only screen and (max-width:1073px){
+    .more-about{
+        padding-top: 8px;
+        line-height: 1.5em;
+    }
+    .about-left {
+        margin-top: 22px;
+        width:45%;
+     
+     }
+    
+     .about-right{
+        margin-top: 75px;
+        width:45%;
+        padding-right: 20px;
+        }
+        .subscribe{
+            width:35% ;
+            margin-left: 14px;
+        }
+    div+h1{
+        line-height: 18px;
+      }
+      footer div p{
+        line-height: 20px;
+       }
+
+       .valuation{
+        margin-top: 15px;
+        padding: 20px 17px;
+       }
+
+       footer .contact{
+        line-height: 28px;
+        width: 35%;
+       }
+       .Listings h2{
+        font-weight: bold;
+        
+     }
+}
+
+@media only screen and (max-width:1048px) {
+    .flexcontent img:nth-child(1){
+        width: 58%;
+     }
+    
+}
+
+@media only screen and (max-width:1017px) {
+    nav>a{
+        margin-left: 150px;
+    }
+
+    nav > h2{ 
+        font-size:large;  
+    }
+
+    main h3{
+ 
+        font-size:large;
+     
+      }
+}
+
+@media only screen and (max-width:999px) {
+    .flexcontent img:nth-child(1){
+        width: 55%;
+     }
+
+     .newsletter{
+        height: 38vh;
+        width: 100%;
+    
+     }
+
+     footer .contact{
+        line-height: 28px;
+        width: 36%;
+        margin-right: 7px;
+       }
+    
+       nav>a{
+        margin-left: 120px;
+    }
+    
+}
+
+@media only screen and (max-width:933px){
+      .aside{
+        width: 34%;
+        line-height:28px ;
+      }
+
+      .Listings h2{
+        width: 100%;
+      }
+      }
+
+      @media only screen and (max-width:909px){
+        .details{
+            width: 34%;
+        }
+
+        .subscribe{
+            width:37% ;
+            margin-left: 20px;
+        }
+
+        .contact span{
+            line-break:anywhere;
+        }
+
+        .services p{
+            padding-top: 10px;
+            font-size: large;
+        }
+
+        .more-about{
+            padding-top: 8px;
+            line-height: 1.2em;
+        }
+        .about-right{
+            padding-top: 22px;
+
+        }
+
+        .manageproperties{
+            line-height: 18px;
+            height:52vh ;
+        }
+    
+        .valuation{
+            line-height: 20px;
+            height:52vh ;
+        }
+        
+       footer .contact{
+            line-height: 22px;
+        }
+
+        nav>a{
+            margin-left: 100px;
+        }
+    }
+
+    @media only screen and (max-width:788px){
+        nav>a{
+            margin-left: 60px;
+        }
+        
+        .subscribe{
+            width:37% ;
+            margin-left: 20px;
+            line-height: 24px;
+        }
+
+        .manageproperties{
+            line-height: 15px;
+            height:55vh ;
+        }
+    
+        .valuation{
+            line-height: 16px;
+            height:55vh ;
+        }
+        
+        footer{
+            height: 60vh;
+        }
+        
+
+        .services p{
+            margin-top: 12px;
+            width: fit-content;
+            font-size: x-large;
+            display: inline;  
+            padding-left: 0;
+            
+        }
+
+        .more-about{
+            height: 85vh;
+            line-height:1.1em ;
+        }
+        .newsletter{
+            width: 100%;
+         }
+
+        footer .contact{
+            line-height: 25px;
+            width: 36%;
+            margin-right: 7px;
+            
+           }
+
+        .flex img{
+            height: 75vh;
+        }
+
+        .details ul{
+            line-height: 35px;
+        }
+        
+        .servicesinfo{
+            display: inline;
+        }
+
+        .manageproperties{
+            line-height: 25px;
+            height:52vh ;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .valuation{
+            line-height: 25px;
+            height:52vh ;
+            width: 100%;
+    }
+
     nav{
-        width: 80%;
-        height: 10vh;
+        height: 14vh;
+    }
+    
+    nav > h2{
+        width: 23%; 
+        font-size:large;  
+    }
+    
+     nav> a{
+      
+        height: 40px;
+        width: 70px;
+        font-size:medium;
+        
+     }
+    }
+    
+
+     @media only screen and (max-width:642px) {
+        nav{
+            height: 15vh;
+        }
+
+        nav > h2{
+            width: 25%; 
+            font-size:large;  
+        }
+        main h1{
+            font-size: large;
+        }
+
+        footer .newsletter input{
+            width:22%;
+            height: 5vh;
+            padding:2px;
+            font-size: small;
+           
+        }
+
+        .about-left >h3{
+            font: 1.5em sans-serif;
+            
+       }  
+
+       .about-right{
+           margin-top: 55px;
+       }
+
+}
+
+    @media only screen and (max-width:590px) {
+        nav{
+            height: 15.5vh;
+        }
+
+        nav > h2{
+            width: 27%; 
+            font-size:large;  
+        }
+        main h1{
+            font-size: large;
+        }
+
+        .details ul{
+            line-height: 31px;
+        }
+
+        .aside{
+    
+            line-height:25px ;
+          }
+    
+
+        .newsletter{
+            display:inline;
+           }
+    
+           footer .contact{
+            line-height: 28px;
+            width: 100%;
+            margin-right: 7px;
+            
+           }
+           footer .subscribe{
+            width:100% ;
+            margin-left: 2px;
+            line-height: 28px;
+            padding-top: 14px;
+        }
+
+        footer .newsletter input{
+            width:50%;
+            height: 5vh;
+            padding:2px;
+            font-size: small;
+    }
+        
+         button{
+        width:100px;
+        top:0px;
+        margin-left: 73px;
+       }
+
+}
+        
+@media only screen and (max-width:560px) {
+    .details ul{
+        line-height: 25px;
+    }
+    .flex >img {
+        width: 56%;
+    }
+
+    nav>a{
+        margin-left: 40px;
+    }
+    nav{
+        height: 16vh;
+    }
+    nav >h2{
+        width: 30%;
+    }
+    .aside{
+    
+        line-height:22px ;
+      }
+     
+}
+
+@media only screen and (max-width:503px){
+.flex >img {
+    
+    width: 54%;
+}
+.details ul {
+    line-height: 20px;
+}
+nav>a{
+    margin-left: 28px;
+}
+
+nav{
+    height: 17vh;
+}
+}
+
+
+@media only screen and (max-width:473px){
+    
+    .aside{
+    
+        line-height:18px ;
+      }
+
+      .more-about{
+        height: 97vh;
+        font:normal;
+    }
+    
+    }
+   
+
+    @media only screen and (max-width:468px){
+        .aside{
+    
+            line-height:16px ;
+          }
+    }
+       
+        
+    
+    
+
+
+
+    
+
+    
+ /*
+@media only screen and (max-width:1394px) {
+    
+    .details{ line-height: 5px;
+        width: 25%;
+        height: 50vh;
+        font:normal;
+        
+
+}
+
+.valuation{
+    line-height: 20px;
+}
+ .manageproperties{
+    line-height: 28px;
+ }
+
+ .details h2{
+    margin-top: 12px;
+    
+ }
+ .details ul{
+    line-height: 50px;
+ }
+    
+}
+
+@media only screen and (max-width:1372px){
+    .details hr{
+        margin-top: 13px;
+        
+    }
+
+    .details{
+        height: 40vh;
+        line-height:3px ;
+    }
+ .details ul{
+    line-height: 40px;
+ }
+ 
+ .aside {
+    margin-left: 850px;
+    
+ }
+}
+
+@media only screen and (max-width:1295px){
+    .details{
+        margin-left: 950px;
+    }
+
+    .more-img img:nth-last-child(1){
+        width: 24%;
+     }
+
+     button{
+        margin-right: 10px;
+        padding-right: 10px;
+
+     }
+   
+     nav{
+        height: 15.5vh;
+    }
+
+    .flexcontent img:nth-child(1) {
+        width: 57%;
+    }
+
+    .aside{
+        margin-left:1060px;
     }
     
     
 }
+@media only screen and (max-width:1024px){
+    main h1{
+        margin-top: 0px;
+    }
+    nav{
+        height: 15.5vh;
+    }
+    .details{
+        margin-left: 0px;
+    }
+    main img{
+        width: 60%;
+        height: 90vh;
+    }
+
+
+}
+
+@media only screen and (max-width:796px){
+    flexcontent img:nth-child(1) {
+        width: 57%;
+      
+    }
+
+    .aside{
+        margin-left:950px;
+    }
+
+}
+
+
+   /*
+@media only screen and (max-width:1394px) {
+    
+    .details{ line-height: 5px;
+        width: 25%;
+        height: 50vh;
+        font:normal;
+        
+
+}
+
+.valuation{
+    line-height: 20px;
+}
+ .manageproperties{
+    line-height: 28px;
+ }
+
+ .details h2{
+    margin-top: 12px;
+    
+ }
+ .details ul{
+    line-height: 50px;
+ }
+    
+}
+
+@media only screen and (max-width:1372px){
+    .details hr{
+        margin-top: 13px;
+        
+    }
+
+    .details{
+        height: 40vh;
+        line-height:3px ;
+    }
+ .details ul{
+    line-height: 40px;
+ }
+ 
+ .aside {
+    margin-left: 850px;
+    
+ }
+}
+
+@media only screen and (max-width:1295px){
+    .details{
+        margin-left: 950px;
+    }
+
+    .more-img img:nth-last-child(1){
+        width: 24%;
+     }
+
+     button{
+        margin-right: 10px;
+        padding-right: 10px;
+
+     }
+   
+     nav{
+        height: 15.5vh;
+    }
+
+    .flexcontent img:nth-child(1) {
+        width: 57%;
+    }
+
+    .aside{
+        margin-left:1060px;
+    }
+    
+    
+}
+@media only screen and (max-width:1024px){
+    main h1{
+        margin-top: 0px;
+    }
+    nav{
+        height: 15.5vh;
+    }
+    .details{
+        margin-left: 0px;
+    }
+    main img{
+        width: 60%;
+        height: 90vh;
+    }
+
+
+}
+
+@media only screen and (max-width:796px){
+    flexcontent img:nth-child(1) {
+        width: 57%;
+      
+    }
+
+    .aside{
+        margin-left:950px;
+    }
+
+}
+
+*/
