@@ -1,1159 +1,1079 @@
 *,
 *::before,
-*::after{
-    padding:0 ;
-    margin: 0;
-    box-sizing: border-box;
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.wrapper{
-    width:fit-content;
+.wrapper {
+  width: fit-content;
 }
 /* styling for the navigation links*/
-nav{
-    width:100%;
-    height: 14vh;
-    margin-top: 0px;
-    background-color: grey;
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    position:fixed;
-    z-index: 9999;
-
+nav {
+  width: 100%;
+  height: 14vh;
+  margin-top: 0px;
+  background-color: grey;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: fixed;
+  z-index: 9999;
 }
 
-nav > h2{
-    width: 23%;
-    padding: 15px;
-    color: gold;
-    text-shadow: 4px 2px gray;  
-    font-size: x-large;  
+nav > h2 {
+  width: 23%;
+  padding: 15px;
+  color: gold;
+  text-shadow: 4px 2px gray;
+  font-size: x-large;
 }
 
- nav> a{
-  
-    text-align: center;
-    margin-left: 198px;
-    margin-top: 25px;
-    padding: 5px;
-    background-color: goldenrod;
-    height: 40px;
-    width: 90px;
-    border:2px solid beige;
-    border-radius:10px ;
-    text-decoration: none;
-    font-size: large;
-    color:white;
-    
- }
+nav > a {
+  text-align: center;
+  margin-left: 198px;
+  margin-top: 25px;
+  padding: 5px;
+  background-color: goldenrod;
+  height: 40px;
+  width: 90px;
+  border: 2px solid beige;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
 
- a:hover{ 
-    
-    transition: 5s;
-    transition-delay: 1s;
-    color:blue;
-    background-color: blanchedalmond;
+a:hover {
+  transition: 5s;
+  transition-delay: 1s;
+  color: blue;
+  background-color: blanchedalmond;
+}
 
- }
- 
 /* extensive style for main element as a wrapper for the featured properties, first property in the portfolio with detail*/
- main{
-    height:180vh;
-    width: 100%;
-    padding-top: 87px;
-    border: 2px solid gold;
-    border-radius: 15px 15px;
- }
+main {
+  height: 180vh;
+  width: 100%;
+  padding-top: 87px;
+  border: 2px solid gold;
+  border-radius: 15px 15px;
+}
 
- main h1{
-    margin-top: 10px;
-    margin-bottom: 9px;
-    color: gold;
-    padding-top: 15px;
-    padding-left: 15px;
-    text-shadow: 3px 2px gray;
-    background-image:url(/asset/carousel.jpg) ;
-    background-image: cover;
-    height: 10vh;
-    width: 100%;
- }
+main h1 {
+  margin-top: 10px;
+  margin-bottom: 9px;
+  color: gold;
+  padding-top: 15px;
+  padding-left: 15px;
+  text-shadow: 3px 2px gray;
+  background-image: url(/asset/carousel.jpg);
+  background-size: cover;
+  height: 10vh;
+  width: 100%;
+}
 
- .flex{
-   width: 100%;
- }
+.flex {
+  width: 100%;
+}
 
- .flex>img{
-    float: left;
-    width: 65%;
-    height: 85vh;
-    
- }
+.flex > img {
+  float: left;
+  width: 65%;
+  height: 85vh;
+}
 
- main h3{
- 
-    font-size:x-large;
-    font-weight: bolder;
-    color: darkgoldenrod;
-    padding-left: 15px;
-    text-shadow: 1px 1px gray;  
- 
+main h3 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: darkgoldenrod;
+  padding-left: 15px;
+  text-shadow: 1px 1px gray;
+}
+
+.details {
+  line-height: 30px;
+  font-weight: bolder;
+  top: 210px;
+  float: right;
+  margin-right: 50px;
+}
+
+.details h2 {
+  color: goldenrod;
+  font-weight: bolder;
+  text-shadow: 1px 1px gray;
+  margin-left: 15px;
+}
+
+.details hr {
+  margin-left: 15px;
+}
+.details ul {
+  color: goldenrod;
+  line-height: 40px;
+  padding-left: 34px;
+}
+
+.katampe-properties {
+  height: 65vh;
+  width: 100%;
+  margin-right: 7px;
+  padding-left: 15px;
+  margin-left: 2px;
+  display: flex;
+  overflow: hidden;
+}
+
+.katampe-properties img:nth-last-child(1) {
+  width: 26%;
+}
+
+.katampe-properties > img {
+  width: 24%;
+  height: 60vh;
+  padding-left: 3px;
+  margin-top: 11px;
+}
+
+img:hover {
+  flex-grow: 0.5;
+}
+
+/* styling of this 2nd section of featured property is similar to above by float to left and right, ul,li and also flex grow */
+.Listings {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  height: 165vh;
+  width: 100%;
+  border: 2px solid gold;
+  border-radius: 15px 15px;
+  overflow: hidden;
+}
+
+.Listings h2 {
+  color: goldenrod;
+  font-weight: bolder;
+  text-shadow: 1px 1px gray;
+  padding-top: 5px;
+}
+
+.flexcontent {
+  width: 100%;
+  height: 90vh;
+}
+
+.flexcontent img:nth-child(1) {
+  height: 85vh;
+  width: 65%;
+  flex-grow: 0;
+  padding-top: 20px;
+  float: left;
+}
+
+.aside {
+  color: goldenrod;
+  font: 1em;
+  font-weight: bolder;
+  text-align: left;
+  line-height: 40px;
+  padding-left: 36px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.Listings address {
+  color: goldenrod;
+  text-shadow: 1px 1px gray;
+}
+
+.more-img {
+  height: 65vh;
+  width: 100%;
+  padding-top: 15px;
+  margin-right: 7px;
+  display: flex;
+}
+
+.more-img img {
+  width: 24%;
+  height: 60vh;
+  padding-left: 3px;
+}
+.more-img img:nth-last-child(1) {
+  width: 26%;
+}
+
+/*Here style  is applied to the about section with a background image while about is untop with an animation and detail also*/
+.grid {
+  background-image: url(/asset/carousel.jpg);
+  background-size: cover;
+  height: 15vh;
+  margin-top: 5px;
+  padding: 10px 40px;
+  color: goldenrod;
+  animation-name: zoom;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 8s;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+
+@keyframes zoom {
+  0% {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: small;
+    color: bisque;
+    padding-left: 35px;
+    padding-top: 24px;
   }
 
-   .details{
-    line-height:30px;
-    font-weight: bolder;
-    top:210px;
-    float: right;
-    margin-right: 50px;
+  50% {
+    padding-top: 3px;
+    color: goldenrod;
+    font: medium;
+    padding-left: 49px;
+    padding-top: 34px;
+  }
 
- }
+  100% {
+    font-weight: bold;
+    opacity: 1;
+    font: larger;
+    color: aqua;
+    padding-bottom: 27px;
+  }
+}
 
- .details h2{
-    color:goldenrod;
-    font-weight: bolder;
-    text-shadow: 1px 1px gray; 
-    margin-left:15px;
- }
+.more-about {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 62vh;
+  margin: 0px 0px 2px 0px;
+  padding: 15px 0 0 25px;
+  font: 1.1em;
+  color: white;
+  font-weight: bolder;
+  line-height: 2em;
+  background-color: gray;
+}
 
- .details hr{
-    margin-left:15px;
+.about-left > h3 {
+  font: 2em sans-serif;
+  color: gold;
+}
 
- }
- .details ul{
-    color:goldenrod;
-    line-height: 40px;
-    padding-left: 34px;
- }
- 
- .katampe-properties{
-    height: 65vh;
+.about-left {
+  margin-top: 25px;
+  width: 45%;
+}
+
+.about-right {
+  margin-top: 58px;
+  width: 45%;
+  padding-right: 15px;
+}
+
+/*the services section were extensively styled below */
+.services {
+  height: 75vh;
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
+  color: goldenrod;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(/asset/serviceslanding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services h1 {
+  padding-left: 14px;
+  font-size: xx-large;
+  font: 3em sans-serif;
+  padding-top: 120px;
+  text-shadow: 3px 2px gray;
+}
+.services p {
+  padding-left: 550px;
+  line-height: 25px;
+  font-size: x-large;
+  padding-top: 50px;
+  text-shadow: 3px 2px gray;
+}
+
+.servicesinfo {
+  display: flex;
+  height: 54vh;
+  width: 90%;
+  margin-top: 5px;
+  margin-left: 17px;
+  font: bolder;
+  gap: 15px;
+}
+
+.servicesinfo h2 {
+  color: goldenrod;
+}
+
+.manageproperties {
+  padding: 17px 17px;
+  width: 120%;
+  background-color: gray;
+  color: whitesmoke;
+  line-height: 40px;
+  border: 2px solid;
+  border-radius: 10px 10px;
+  margin-left: 65px;
+  margin-top: 17px;
+  height: 50vh;
+}
+
+.valuation {
+  margin-top: 17px;
+  padding: 27px 17px;
+  height: 50vh;
+  width: 120%;
+  background-color: gray;
+  color: white;
+  line-height: 30px;
+  border: 2px solid;
+  border-radius: 10px 10px;
+}
+
+.valuation ul {
+  margin-left: 44px;
+  color: white;
+}
+
+/* below are style for footer section */
+
+footer {
+  height: 40vh;
+  width: 100%;
+  color: white;
+  margin: 25px 0;
+  background-color: gray;
+  margin-top: 55px;
+}
+
+.newsletter {
+  margin: 45px 17px 0 0;
+  padding: 40px 14px;
+  height: 34vh;
+  width: 98%;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.newsletter > div {
+  padding-left: 27px;
+  width: 30%;
+}
+div + h1 {
+  line-height: 29px;
+}
+footer div p {
+  line-height: 29px;
+}
+
+footer .newsletter input {
+  width: 22%;
+  height: 5vh;
+  margin-top: 45px;
+  padding: 2px;
+  color: black;
+}
+
+button {
+  color: black;
+  background-color: greenyellow;
+  width: 89px;
+  height: 5vh;
+  position: relative;
+  top: 45px;
+  margin-left: 73px;
+}
+
+footer .contact {
+  font: 1.4em bold;
+  line-height: 30px;
+}
+
+/*responsive website stlying*/
+@media only screen and (max-width: 1196px) {
+  .flexcontent img:nth-child(1) {
+    width: 62%;
+  }
+}
+
+@media only screen and (max-width: 1192px) {
+  .manageproperties {
+    line-height: 25px;
+    height: 51vh;
+  }
+
+  .valuation {
+    line-height: 25px;
+    height: 51vh;
+  }
+}
+
+@media only screen and (max-width: 1154px) {
+  main h1 {
+    margin-top: 5px;
+  }
+
+  nav > a {
+    margin-left: 170px;
+  }
+
+  .manageproperties {
+    line-height: 18px;
+    height: 52vh;
+  }
+
+  .valuation {
+    line-height: 22px;
+    height: 52vh;
+  }
+}
+@media only screen and (max-width: 1115px) {
+  .flex > img {
+    width: 57%;
+  }
+
+  footer .contact {
+    line-height: 28px;
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 1102px) {
+  .flexcontent img:nth-child(1) {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1073px) {
+  .more-about {
+    padding-top: 8px;
+    line-height: 1.5em;
+  }
+  .about-left {
+    margin-top: 22px;
+    width: 45%;
+  }
+
+  .about-right {
+    margin-top: 75px;
+    width: 45%;
+    padding-right: 20px;
+  }
+  .subscribe {
+    width: 35%;
+    margin-left: 14px;
+  }
+  div + h1 {
+    line-height: 18px;
+  }
+  footer div p {
+    line-height: 20px;
+  }
+
+  .valuation {
+    margin-top: 15px;
+    padding: 20px 17px;
+  }
+
+  footer .contact {
+    line-height: 28px;
+    width: 35%;
+  }
+  .Listings h2 {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+  .flexcontent img:nth-child(1) {
+    width: 58%;
+  }
+
+  nav {
+    width: 100%;
+    height: 17vh;
+  }
+}
+
+@media only screen and (max-width: 1017px) {
+  nav > a {
+    margin-left: 150px;
+  }
+
+  nav > h2 {
+    font-size: large;
+  }
+
+  main h3 {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .flexcontent img:nth-child(1) {
+    width: 55%;
+  }
+
+  .newsletter {
+    height: 38vh;
+    width: 100%;
+  }
+
+  footer .contact {
+    line-height: 28px;
+    width: 36%;
+    margin-right: 7px;
+  }
+
+  nav > a {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 933px) {
+  .aside {
+    width: 34%;
+    line-height: 28px;
+  }
+
+  .Listings h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 909px) {
+  .details {
+    width: 34%;
+  }
+
+  .subscribe {
+    width: 37%;
+    margin-left: 20px;
+  }
+
+  .contact span {
+    line-break: anywhere;
+  }
+
+  .services p {
+    padding-top: 10px;
+    font-size: large;
+  }
+
+  .more-about {
+    padding-top: 0px;
+    line-height: 1.2em;
+  }
+  .about-right {
+    padding-top: 22px;
+  }
+
+  .manageproperties {
+    line-height: 18px;
+    height: 52vh;
+  }
+
+  .valuation {
+    line-height: 20px;
+    height: 52vh;
+  }
+
+  footer .contact {
+    line-height: 22px;
+  }
+
+  nav > a {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main h1 {
+    font-size: large;
+    margin-top: 0px;
+  }
+  nav {
+    height: 16vh;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  nav > a {
+    margin-left: 60px;
+  }
+
+  .subscribe {
+    width: 37%;
+    margin-left: 20px;
+    line-height: 24px;
+  }
+
+  .manageproperties {
+    line-height: 15px;
+    height: 55vh;
+  }
+
+  .valuation {
+    line-height: 16px;
+    height: 55vh;
+  }
+
+  footer {
+    height: 60vh;
+  }
+
+  .services p {
+    margin-top: 12px;
+    width: fit-content;
+    font-size: x-large;
+    display: inline;
+    padding-left: 0;
+  }
+
+  .more-about {
+    height: 85vh;
+    line-height: 1.1em;
+  }
+  .newsletter {
+    width: 100%;
+  }
+
+  footer .contact {
+    line-height: 25px;
+    width: 36%;
+    margin-right: 7px;
+  }
+
+  .flex img {
+    height: 75vh;
+  }
+
+  .details ul {
+    line-height: 35px;
+  }
+
+  .servicesinfo {
+    display: inline;
+  }
+
+  .manageproperties {
+    line-height: 25px;
+    height: 52vh;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .valuation {
+    line-height: 25px;
+    height: 52vh;
+    width: 100%;
+  }
+
+  nav {
+    height: 17vh;
+  }
+
+  nav > h2 {
+    width: 23%;
+    font-size: large;
+  }
+
+  nav > a {
+    height: 40px;
+    width: 70px;
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 642px) {
+  .Listings h2 {
+    font-weight: bold;
+  }
+  nav {
+    height: 15vh;
+  }
+
+  nav > h2 {
+    width: 25%;
+    font-size: large;
+  }
+  main h1 {
+    font-size: large;
+  }
+
+  footer .newsletter input {
+    width: 22%;
+    height: 5vh;
+    padding: 2px;
+    font-size: small;
+  }
+
+  .about-left > h3 {
+    font: 1.5em sans-serif;
+  }
+
+  .about-right {
+    margin-top: 69px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  nav {
+    height: 15.5vh;
+  }
+
+  nav > h2 {
+    width: 27%;
+    font-size: large;
+  }
+  main h1 {
+    font-size: large;
+  }
+
+  .details ul {
+    line-height: 31px;
+  }
+
+  .aside {
+    line-height: 25px;
+  }
+
+  .newsletter {
+    display: inline;
+  }
+
+  footer .contact {
+    line-height: 28px;
     width: 100%;
     margin-right: 7px;
-    padding-left:15px;
+  }
+  footer .subscribe {
+    width: 100%;
     margin-left: 2px;
-    display: flex;
-    overflow:hidden;
- }
+    line-height: 28px;
+    padding-top: 14px;
+  }
 
- .katampe-properties img:nth-last-child(1){
-    width: 26%;
- }
- 
+  footer .newsletter input {
+    width: 50%;
+    height: 5vh;
+    padding: 2px;
+    font-size: small;
+  }
 
- .katampe-properties> img{
-    width:24%;
-    height:60vh;
-    padding-left: 3px;
-    margin-top: 11px;
-   
- }
+  button {
+    width: 100px;
+    top: 0px;
+    margin-left: 73px;
+  }
+}
 
- img:hover{
-    flex-grow: 0.5;
- }
+@media only screen and (max-width: 560px) {
+  .details ul {
+    line-height: 25px;
+  }
+  .flex > img {
+    width: 56%;
+  }
 
- /* styling of this 2nd section of featured property is similar to above by float to left and right, ul,li and also flex grow */
- .Listings{
+  nav > a {
+    margin-left: 40px;
+  }
+  nav {
+    height: 16vh;
+  }
+  nav > h2 {
+    width: 30%;
+  }
+  .aside {
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .flex > img {
+    width: 54%;
+  }
+  .details ul {
+    line-height: 20px;
+  }
+  nav > a {
+    margin-left: 28px;
+  }
+
+  nav {
+    height: 17vh;
+  }
+}
+
+@media only screen and (max-width: 473px) {
+  .aside {
+    line-height: 18px;
+  }
+
+  .more-about {
+    height: 97vh;
+    font: normal;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .aside {
+    line-height: 16px;
+    padding-left: 17px;
+  }
+
+  .flexcontent img:nth-child(1) {
+    width: 53%;
+  }
+
+  .valuation {
+    line-height: 24px;
+    height: 60vh;
+  }
+
+  .about-right {
+    margin-top: 58px;
+  }
+
+  .more-about {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .about-right {
+    margin-top: 76px;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  nav > a {
+    margin-left: 20px;
+  }
+
+  nav {
+    height: 18vh;
+  }
+  .details ul {
+    line-height: 17px;
+  }
+
+  .flex > img {
+    width: 51%;
+  }
+
+  .more-about {
+    height: 130vh;
+  }
+
+  footer {
+    height: 70vh;
+  }
+  footer .newsletter input {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .flexcontent img:nth-child(1) {
+    width: 49%;
+  }
+
+  .aside {
+    line-height: 19px;
+    padding-left: 9px;
+  }
+
+  nav > a {
+    margin-left: 13px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .Listings {
     margin-top: 20px;
     padding-top: 5px;
     padding-left: 10px;
-    height:165vh;
+    height: 160vh;
     width: 100%;
-    border: 2px solid gold;
-    border-radius: 15px 15px;
-    overflow: hidden;
- }
+    overflow: initial;
+  }
 
- .Listings h2{
-    color:goldenrod;
-    font-weight: bolder;
-    text-shadow: 1px 1px gray; 
-    padding-top: 5px;
- }
+  .more-img {
+    overflow: scroll;
+  }
+  .more-img img {
+    width: 42%;
+    height: 45vh;
+    padding-left: 3px;
+  }
 
- .flexcontent{
+  .more-img img:nth-last-child(1) {
+    width: 42%;
+  }
+
+  .flexcontent img:nth-child(1) {
+    height: 50vh;
     width: 100%;
-    height: 90vh;
- }
-
- .flexcontent img:nth-child(1){
-    height: 85vh;
-    width: 65%;
     flex-grow: 0;
     padding-top: 20px;
-    float: left;
- }
+    float: none;
+  }
 
- .aside{
-    color: goldenrod;
-    font:1em;
+  .flex > img {
+    float: none;
+    width: 100%;
+    height: 85vh;
+  }
+
+  main {
+    height: 210vh;
+  }
+
+  .katampe-properties {
+    height: 52vh;
+    width: 100%;
+    margin-top: 119px;
+    margin-right: 7px;
+    padding-left: 15px;
+    margin-left: 2px;
+    display: flex;
+    overflow: scroll;
+  }
+  .katampe-properties > img {
+    width: 42%;
+    height: 40vh;
+  }
+  .katampe-properties img:nth-last-child(1) {
+    width: 42%;
+  }
+
+  .details {
+    line-height: 30px;
     font-weight: bolder;
+    top: 210px;
+    float: none;
+    margin-right: 50px;
+    width: 100%;
+    height: 20vh;
+  }
+
+  .aside {
+    width: 100%;
+    height: 90vh;
+    color: goldenrod;
+    font: 1em;
+    font-weight: bold;
     text-align: left;
-    line-height: 40px;
+    line-height: 20px;
     padding-left: 36px;
     margin-right: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
-    float: right;
-}
-
-
- .Listings address{
-    color: goldenrod;
-    text-shadow: 1px 1px gray; 
- }
-
- .more-img{
-    height: 65vh;
-    width: 100%;
-    padding-top: 15px;
-    margin-right: 7px;
-    display: flex;
- }
-
- .more-img img{
-    width:24%;
-    height:60vh;
-    padding-left: 3px;
- }
- .more-img img:nth-last-child(1){
-    width: 26%;
- }
-
- /*Here style  is applied to the about section with a background image while about is untop with an animation and detail also*/
- .grid{
-    background-image:url(/asset/carousel.jpg);
-    background-size: cover;
-    height: 15vh;
-    margin-top: 5px;
-    padding:10px 40px;
-    color:goldenrod;
-    animation-name: zoom;
-    animation-delay: 3s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-in;
-            animation-duration: 8s;
-            animation-direction:normal;
-            animation-play-state: running;
- }
-
- @keyframes zoom{
-    0%{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size:small;
-        color: bisque;
-        padding-left: 35px;
-        padding-top: 24px;
-    }
-
-    50%{
-      padding-top: 3px;
-      color: goldenrod;
-      font:medium;
-      padding-left: 49px;
-      padding-top: 34px;
-    }
-    
-    100%{
-        font-weight: bold;
-        opacity:1 ;
-        font:larger;
-        color:aqua;
-        padding-bottom: 27px;  
-    }
+    float: none;
   }
- 
- .more-about{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 62vh;
-    margin: 0px 0px 2px 0px;
-    padding:15px 0 0 25px;
-    font:1.1em;
-    color:white;
-    font-weight: bolder;
-    line-height: 2em;
-    background-color:gray;
- }
+}
 
- .about-left >h3{
-    font: 2em sans-serif;
-    color:gold;
-    
- }
-
- .about-left {
-    margin-top: 25px;
-    width:45%;
- 
- }
-
- .about-right{
-    margin-top: 58px;
-    width:45%;
-    padding-right: 15px;
-    
-    }
-
-   
-/*the services section were extensively styled below */
-    .services{
-        height: 75vh;
-        display:block;
-        margin-top:30px;
-        font-weight: bold;
-        color:goldenrod;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-image: url(/asset/serviceslanding.jpg);
-        background-size:cover ;
-        background-repeat: no-repeat;
-    }
-
-    .services h1{
-        padding-left: 14px;
-        font-size: xx-large;
-        font: 3em sans-serif;
-        padding-top: 120px;
-        text-shadow: 3px 2px gray;
-    }
-    .services p{
-        padding-left: 550px;
-        line-height: 25px;
-        font-size: x-large;
-        padding-top: 50px;
-        text-shadow: 3px 2px gray;
-    }
-
-    .servicesinfo{
-        display: flex;
-        height: 54vh;
-        width: 90%;
-        margin-top: 5px;
-        margin-left: 17px;
-        font: bolder;
-        gap: 15px;
-        
-    }
-
-    .servicesinfo h2{
-        color: goldenrod;
-    }
-
-    .manageproperties{
-        padding: 17px 17px;
-        width:120%;
-        background-color:gray;
-        color:whitesmoke;
-        line-height: 40px;
-        border: 2px solid;
-        border-radius: 10px 10px;
-        margin-left: 65px;
-        margin-top: 17px;
-        height: 50vh;
-        
-    }
-
-    .valuation{
-        margin-top: 17px;
-        padding: 27px 17px;
-        height: 50vh;
-        width:120%;
-        background-color:gray;
-        color: white;
-        line-height: 30px;
-        border: 2px solid;
-        border-radius: 10px 10px;
-    }
-
-    .valuation ul{
-        margin-left: 44px;
-        color: white;
-    }
-
-    /* below are style for footer section */
-
-    footer{
-        height: 40vh;
-        width: 100%;
-        color: white;
-       margin: 25px 0;
-       background-color:gray;
-       margin-top: 55px;
-       
-    
-   }
-
- .newsletter{
-    margin:45px 17px 0 0;
-    padding: 40px 14px ;
-    height: 34vh;
-    width: 98%;
-    display: flex;
-    font-weight: bold;
-   justify-content: space-between;
-
- }
-
- .newsletter >div{
-    padding-left: 27px;
-    width: 30%;
-
- }
-  div+h1{
-    line-height: 29px;
+@media only screen and (max-width: 383px) {
+  nav > a {
+    margin-left: 6px;
+    height: 37px;
+    width: 68px;
   }
-  footer div p{
-    line-height: 29px;
-   }
 
-  footer .newsletter input{
-    width:22%;
-    height: 5vh;
-    margin-top: 45px;
-    padding:2px;
-    color: black;
-    
-   }
-
-   button{
-    color: black;
-    background-color: greenyellow;
-    width:89px;
-    height: 5vh;
-    position: relative;
-    top:45px;
-    margin-left: 73px;
-   }
-
-  footer .contact{
-   
-    font: 1.4em bold;
-    line-height: 30px;
-   }
-
-   
-/*responsive website stlying*/
-   @media only screen and (max-width:1196px) {
-
-    .flexcontent img:nth-child(1){
-        width: 62%;
-     }
-   }
-   
-   @media only screen and (max-width:1192px) {
-    .manageproperties{
-        line-height: 25px;
-        height:51vh ;
-    }
-
-    .valuation{
-        line-height: 25px;
-        height:51vh ;
-    }
-
-}
-
-@media only screen and (max-width:1154px){
-    main h1{
-        margin-top: 5px;
-    }
-
-    nav>a{
-        margin-left: 170px;
-    }
-
-    .manageproperties{
-        line-height: 18px;
-        height:52vh ;
-    }
-
-    .valuation{
-        line-height: 22px;
-        height:52vh ;
-    }
-}
-@media only screen and (max-width:1115px){
-    .flex >img{
-        width: 57%;
-     }
-    
-     footer .contact{
-        line-height: 28px;
-        width: 34%;
-       }
-}
-
-@media only screen and (max-width:1102px){
-    .flexcontent img:nth-child(1){
-        width: 60%;
-     }
-}
-
-@media only screen and (max-width:1073px){
-    .more-about{
-        padding-top: 8px;
-        line-height: 1.5em;
-    }
-    .about-left {
-        margin-top: 22px;
-        width:45%;
-     
-     }
-    
-     .about-right{
-        margin-top: 75px;
-        width:45%;
-        padding-right: 20px;
-        }
-        .subscribe{
-            width:35% ;
-            margin-left: 14px;
-        }
-    div+h1{
-        line-height: 18px;
-      }
-      footer div p{
-        line-height: 20px;
-       }
-
-       .valuation{
-        margin-top: 15px;
-        padding: 20px 17px;
-       }
-
-       footer .contact{
-        line-height: 28px;
-        width: 35%;
-       }
-       .Listings h2{
-        font-weight: bold;
-        
-     }
-}
-
-@media only screen and (max-width:1048px) {
-    .flexcontent img:nth-child(1){
-        width: 58%;
-     }
-
-     nav {
-        width: 100%;
-        height: 17vh;
-    
-}}
-
-@media only screen and (max-width:1017px) {
-    nav>a{
-        margin-left: 150px;
-    }
-
-    nav > h2{ 
-        font-size:large;  
-    }
-
-    main h3{
- 
-        font-size:large;
-     
-      }
-}
-
-@media only screen and (max-width:999px) {
-    .flexcontent img:nth-child(1){
-        width: 55%;
-     }
-
-     .newsletter{
-        height: 38vh;
-        width: 100%;
-    
-     }
-
-     footer .contact{
-        line-height: 28px;
-        width: 36%;
-        margin-right: 7px;
-       }
-    
-       nav>a{
-        margin-left: 120px;
-    }
-    
-}
-
-@media only screen and (max-width:933px){
-      .aside{
-        width: 34%;
-        line-height:28px ;
-      }
-
-      .Listings h2{
-        width: 100%;
-      }
-      }
-
-      @media only screen and (max-width:909px){
-        .details{
-            width: 34%;
-        }
-
-        .subscribe{
-            width:37% ;
-            margin-left: 20px;
-        }
-
-        .contact span{
-            line-break:anywhere;
-        }
-
-        .services p{
-            padding-top: 10px;
-            font-size: large;
-        }
-
-        .more-about{
-            padding-top: 0px;
-            line-height: 1.2em;
-        }
-        .about-right{
-            padding-top: 22px;
-
-        }
-
-        .manageproperties{
-            line-height: 18px;
-            height:52vh ;
-        }
-    
-        .valuation{
-            line-height: 20px;
-            height:52vh ;
-        }
-        
-       footer .contact{
-            line-height: 22px;
-        }
-
-        nav>a{
-            margin-left: 100px;
-        }
-    }
-
-    
-    @media only screen and (max-width:768px){
-        main h1{
-            font-size: large;
-            margin-top: 0px;
-        }
-        nav {
-            height: 16vh;
-        }
-    }
-
-    @media only screen and (max-width:788px){
-        nav>a{
-            margin-left: 60px;
-        }
-        
-        .subscribe{
-            width:37% ;
-            margin-left: 20px;
-            line-height: 24px;
-        }
-
-        .manageproperties{
-            line-height: 15px;
-            height:55vh ;
-        }
-    
-        .valuation{
-            line-height: 16px;
-            height:55vh ;
-        }
-        
-        footer{
-            height: 60vh;
-        }
-        
-
-        .services p{
-            margin-top: 12px;
-            width: fit-content;
-            font-size: x-large;
-            display: inline;  
-            padding-left: 0;
-            
-        }
-
-        .more-about{
-            height: 85vh;
-            line-height:1.1em ;
-        }
-        .newsletter{
-            width: 100%;
-         }
-
-        footer .contact{
-            line-height: 25px;
-            width: 36%;
-            margin-right: 7px;
-            
-           }
-
-        .flex img{
-            height: 75vh;
-        }
-
-        .details ul{
-            line-height: 35px;
-        }
-        
-        .servicesinfo{
-            display: inline;
-        }
-
-        .manageproperties{
-            line-height: 25px;
-            height:52vh ;
-            width: 100%;
-            margin-left: 0;
-        }
-    
-        .valuation{
-            line-height: 25px;
-            height:52vh ;
-            width: 100%;
-    }
-
-    nav{
-        height: 17vh;
-    }
-    
-    nav > h2{
-        width: 23%; 
-        font-size:large;  
-    }
-    
-     nav> a{
-      
-        height: 40px;
-        width: 70px;
-        font-size:medium;
-        
-     }
-    }
-    
-
-     @media only screen and (max-width:642px) {
-
-        .Listings h2{
-            
-            font-weight: bold;
-         }
-        nav{
-            height: 15vh;
-        }
-
-        nav > h2{
-            width: 25%; 
-            font-size:large;  
-        }
-        main h1{
-            font-size: large;
-        }
-
-        footer .newsletter input{
-            width:22%;
-            height: 5vh;
-            padding:2px;
-            font-size: small;
-           
-        }
-
-        .about-left >h3{
-            font: 1.5em sans-serif;
-            
-       }  
-
-       .about-right{
-           margin-top: 69px;
-       }
-
-}
-
-    @media only screen and (max-width:590px) {
-        nav{
-            height: 15.5vh;
-        }
-
-        nav > h2{
-            width: 27%; 
-            font-size:large;  
-        }
-        main h1{
-            font-size: large;
-        }
-
-        .details ul{
-            line-height: 31px;
-        }
-
-        .aside{
-    
-            line-height:25px ;
-          }
-    
-
-        .newsletter{
-            display:inline;
-           }
-    
-           footer .contact{
-            line-height: 28px;
-            width: 100%;
-            margin-right: 7px;
-            
-           }
-           footer .subscribe{
-            width:100% ;
-            margin-left: 2px;
-            line-height: 28px;
-            padding-top: 14px;
-        }
-
-        footer .newsletter input{
-            width:50%;
-            height: 5vh;
-            padding:2px;
-            font-size: small;
-    }
-        
-         button{
-        width:100px;
-        top:0px;
-        margin-left: 73px;
-       }
-
-}
-        
-@media only screen and (max-width:560px) {
-    .details ul{
-        line-height: 25px;
-    }
-    .flex >img {
-        width: 56%;
-    }
-
-    nav>a{
-        margin-left: 40px;
-    }
-    nav{
-        height: 16vh;
-    }
-    nav >h2{
-        width: 30%;
-    }
-    .aside{
-    
-        line-height:22px ;
-      }
-     
-}
-
-@media only screen and (max-width:503px){
-.flex >img {
-    
-    width: 54%;
-}
-.details ul {
-    line-height: 20px;
-}
-nav>a{
-    margin-left: 28px;
-}
-
-nav{
-    height: 17vh;
-}
-}
-
-
-@media only screen and (max-width:473px){
-    
-    .aside{
-    
-        line-height:18px ;
-      }
-
-      .more-about{
-        height: 97vh;
-        font:normal;
-    }
-    
-    }
-   
-
-    @media only screen and (max-width:468px){
-        .aside{
-    
-            line-height:16px ;
-            padding-left: 17px;
-          }
-
-          .flexcontent img:nth-child(1) {
-            width: 53%;
-        }
-
-        .valuation {
-            line-height: 24px;
-            height: 60vh;
-          
-        }
-
-        .about-right{
-            margin-top: 58px;
-        }
-
-        .more-about {
-            height: 120vh;
-        }
-    }
-
-    @media only screen and (max-width:454px){
-        .about-right{
-            margin-top: 76px;
-        }
-
-    }
-
-    @media only screen and (max-width:427px){
-
-        nav>a{
-    margin-left: 20px;
-         }
-
-        nav{
-    height: 18vh;
-        }  
-     .details ul {
-    line-height: 17px;
-       }
-
-       .flex >img {
-        width: 51%;
-    }
-
-    .more-about {
-        height: 130vh;
-    }
-
-   
-
-    footer {
-        height: 70vh;
-    }
-    footer .newsletter input {
-        width: 40%;
-    }
-    }
-
-    @media only screen and (max-width:399px){
-        .flexcontent img:nth-child(1) {
-            width: 49%;
-        }
-
-        .aside{
-    
-            line-height:19px ;
-            padding-left: 9px;
-          }
-
-        nav>a {
-            margin-left: 13px;
-            margin-top: 40px;
-        }
-    
-    }
-
-    @media only screen and (max-width:395px){
-
-        .Listings {
-            margin-top: 20px;
-            padding-top: 5px;
-            padding-left: 10px;
-            height: 160vh;
-            width: 100%;
-            overflow:none;
-        }
-        
-        .more-img{
-            overflow:scroll;
-        }
-        .more-img img{
-            width:42%;
-            height:45vh;
-            padding-left: 3px;
-            
-         }
-
-         .more-img img:nth-last-child(1){
-            width: 42%;
-         }
-        
-       
-        .flexcontent img:nth-child(1) {
-        height: 50vh;
-        width: 100%;
-        flex-grow: 0;
-        padding-top: 20px;
-        float:none;
-    }   
-
-    .flex>img {
-        float: none;
-        width: 100%;
-        height: 85vh;
-    }  
-     
-    main{
-        height: 210vh;
-    }
-
-    .katampe-properties {
-        height: 52vh;
-        width: 100%;
-        margin-top: 119px;
-        margin-right: 7px;
-        padding-left: 15px;
-        margin-left: 2px;
-        display: flex;
-        overflow:scroll;
-    }
-    .katampe-properties> img{
-        width: 42%;
-        height: 40vh;
-    }
-    .katampe-properties img:nth-last-child(1) {
-        width: 42%;
-    }
-   
-    .details {
-        line-height: 30px;
-        font-weight: bolder;
-        top: 210px;
-        float: none;
-        margin-right: 50px;
-        width: 100%;
-        height: 20vh;
-    }
-
-    .aside {
-        width: 100%;
-        height: 90vh;
-        color: goldenrod;
-        font: 1em;
-        font-weight: bold;
-        text-align: left;
-        line-height: 20px;
-        padding-left: 36px;
-        margin-right: 50px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        float: none;
-    }
-}
-
-@media only screen and (max-width:383px){
-   nav >a {
-         margin-left: 6px;
-         height: 37px;
-         width: 68px;
-   } 
-
-   .manageproperties {
+  .manageproperties {
     line-height: 16px;
     height: 46vh;
-}
+  }
 
-.valuation {
+  .valuation {
     line-height: 24px;
     height: 70vh;
-}
-}  
-
-@media only screen and (max-width:376px){
-    nav{
-        font-size: medium;
-    }
-
-    nav>a{
-        margin-left: 3px;
-    }
-
-    nav{
-        height: 20vh;
-            }  
-     main h1 {
-                margin-top: 27px;
-            }
-
-    .about-right {
-        margin-top: 83px;
-    }
-     
-    .more-about {
-        height: 160vh;
-    }
-
-    .more-img img{
-        padding-top: 79px;
-        
-     }
-
-    .Listings {
-       
-        height: 162vh;
-        
-    }
-
-    .aside {
-        height: 115vh;
-    }
-
-    footer{
-        font-size: small;
-    }
-    footer .subscribe {
-        padding-right: 4px;
-        
-    }
-
-    footer .newsletter input{
-        width: 32%;
-    }
-
-    main{
-        height: 220vh;
-    }
-    
+  }
 }
 
-@media only screen and (max-width:337px){
+@media only screen and (max-width: 376px) {
+  nav {
+    font-size: medium;
+  }
 
-    nav{
-        height: 22vh;
-        font-size: medium;
-            }  
+  nav > a {
+    margin-left: 3px;
+  }
 
-    .about-right {
-                margin-top: 105px;
-            }
+  nav {
+    height: 20vh;
+  }
+  main h1 {
+    margin-top: 27px;
+  }
+
+  .about-right {
+    margin-top: 83px;
+  }
+
+  .more-about {
+    height: 160vh;
+  }
+
+  .more-img img {
+    padding-top: 79px;
+  }
+
+  .Listings {
+    height: 162vh;
+  }
+
+  .aside {
+    height: 115vh;
+  }
+
+  footer {
+    font-size: small;
+  }
+  footer .subscribe {
+    padding-right: 4px;
+  }
+
+  footer .newsletter input {
+    width: 32%;
+  }
+
+  main {
+    height: 220vh;
+  }
 }
-        
-    
-    
 
+@media only screen and (max-width: 337px) {
+  nav {
+    height: 22vh;
+    font-size: medium;
+  }
 
-
-    
+  .about-right {
+    margin-top: 105px;
+  }
+}
