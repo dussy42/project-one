@@ -1,5 +1,5 @@
 ﻿# project-one
-This Realtor website is mainly html and ccs based showing what my real estate firm (Momoh estate surveyor and valuer ) has to offer potential clients majorly in real estate needs and investment appraisal. Potential client visiting this website will benefit from wealth of experience and reputation we have in the real estate industry in property valuation, property management and agency.
+This Realtor website is mainly html and css based showing what my real estate firm (Momoh estate surveyor and valuer ) has to offer potential clients majorly in real estate needs and investment appraisal. Potential client visiting this website will benefit from wealth of experience and reputation we have in the real estate industry in property valuation, property management and agency.
 
 ![Screenshot1440px](documentation/Screenshot1440px.png)
 ![Screenshot768px](documentation/Screenshot768px.png)
