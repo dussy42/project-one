@@ -15,6 +15,7 @@ The navigation is well structured to make it easier for potential clients to nav
 
 
 2 CONTENTS
+
 1 The first here is the 
 FEATURED PROPERTIES as the header on the top left corner, below that is huge image of a property at katampe and to the right is brief description of this property(features,location, value) and below it is segmented picture of the other views of the property. 
 
@@ -31,3 +32,10 @@ FEATURED PROPERTIES as the header on the top left corner, below that is huge ima
 
   Credits
   All codes were organically made by me apart from images which i got from [Grenadines Homes](https://grenadineshomes.com/) [Property in Nigeria](https://www.privateproperty.com.ng/ )  [Capital Luxury Realty](https://capitalluxury.com/)
+
+2 VALIDATOR TESTING
+ W3C was used to validate my html while jigsaw was used for css and both turn out to be no error.Be that as it may, i affrirm  upon using lighthouse in devtools that the website is accessibile with legible fonts and well lighted colors
+
+ ![Lighthouse](asset/lighthouse.png)
+
+
