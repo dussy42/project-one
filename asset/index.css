@@ -19,7 +19,7 @@ nav {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   position: fixed;
-  z-index: 9999;
+ 
 }
 
 nav > h2 {
@@ -313,7 +313,6 @@ img:hover {
   
 }
 .services p {
-  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
 
   padding-left: 550px;
   line-height: 25px;
