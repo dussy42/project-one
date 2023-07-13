@@ -14,7 +14,7 @@ nav {
   width: 100%;
   height: 14vh;
   margin-top: 0px;
-  background-color: #545454;
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgb(81, 122, 133) 100%);
   display: flex;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -25,7 +25,7 @@ nav {
 nav > h2 {
   width: 23%;
   padding: 15px;
-  color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.978);
   text-shadow: 4px 2px gray;
   font-size: x-large;
 }
@@ -35,14 +35,14 @@ nav > a {
   margin-left: 198px;
   margin-top: 25px;
   padding: 5px;
-  background-color: #D4D4D4;
+  background-color: #d4d4d400;
   height: 40px;
   width: 90px;
   border: 2px solid beige;
   border-radius: 10px;
   text-decoration: none;
   font-size: large;
-  color: #2E2E2E;
+  color: rgba(0, 0, 0, 0.978);
 }
 
 a:hover {
@@ -59,16 +59,15 @@ main {
   padding-top: 87px;
   border: 2px solid gold;
   border-radius: 15px 15px;
+  background-color:#1F2833 ;
 }
 
 main h1 {
   margin-top: 10px;
   margin-bottom: 9px;
-  color: gold;
-  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.978);
+  background-image: linear-gradient(to top left, rgba(81, 88, 133, 0.778) 0%, rgba(131, 81, 133, 0.9) 100%);  padding-top: 15px;
   padding-left: 15px;
-  text-shadow: 3px 2px gray;
-  background-image: url(./carousel.jpg);
   background-size: cover;
   height: 10vh;
   width: 100%;
@@ -87,7 +86,7 @@ main h1 {
 main h3 {
   font-size: x-large;
   font-weight: bolder;
-  color: darkgoldenrod;
+  color:whitesmoke;
   padding-left: 15px;
   text-shadow: 1px 1px gray;
 }
@@ -101,7 +100,7 @@ main h3 {
 }
 
 .details h2 {
-  color: goldenrod;
+  color:rgba(245, 245, 245, 0.918);
   font-weight: bolder;
   text-shadow: 1px 1px gray;
   margin-left: 15px;
@@ -111,7 +110,8 @@ main h3 {
   margin-left: 15px;
 }
 .details ul {
-  color: goldenrod;
+  
+  color: white;
   line-height: 40px;
   padding-left: 34px;
 }
@@ -149,12 +149,13 @@ img:hover {
   height: 165vh;
   width: 100%;
   border: 2px solid gold;
+  background-color: #182628;
   border-radius: 15px 15px;
   overflow: hidden;
 }
 
 .Listings h2 {
-  color: goldenrod;
+  color:rgba(255, 255, 255, 0.582);
   font-weight: bolder;
   text-shadow: 1px 1px gray;
   padding-top: 5px;
@@ -174,7 +175,7 @@ img:hover {
 }
 
 .aside {
-  color: goldenrod;
+  color: white;
   font: 1em;
   font-weight: bolder;
   text-align: left;
@@ -187,7 +188,7 @@ img:hover {
 }
 
 .Listings address {
-  color: goldenrod;
+  color: white;
   text-shadow: 1px 1px gray;
 }
 
@@ -211,11 +212,13 @@ img:hover {
 /*Here style  is applied to the about section with a background image while about is untop with an animation and detail also*/
 .grid {
   background-image: url(./carousel.jpg);
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
+
   background-size: cover;
   height: 15vh;
   margin-top: 5px;
   padding: 10px 40px;
-  color: goldenrod;
+  color: #182628;
   animation-name: zoom;
   animation-delay: 3s;
   animation-iteration-count: 1;
@@ -263,7 +266,7 @@ img:hover {
   color: white;
   font-weight: bolder;
   line-height: 2em;
-  background-color: gray;
+  background-color: #2C3531;
 }
 
 .about-left > h3 {
@@ -288,12 +291,14 @@ img:hover {
   display: block;
   margin-top: 30px;
   font-weight: bold;
-  color: goldenrod;
+ 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-image: url(./serviceslanding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
+  
 }
 
 .services h1 {
@@ -301,14 +306,21 @@ img:hover {
   font-size: xx-large;
   font: 3em sans-serif;
   padding-top: 120px;
-  text-shadow: 3px 2px gray;
+  color: rgba(255, 240, 240, 0.048);
+  text-shadow: 5px 7px rgba(0, 0, 0, 0.836);
+  
+  
+  
 }
 .services p {
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
+
   padding-left: 550px;
   line-height: 25px;
   font-size: x-large;
   padding-top: 50px;
-  text-shadow: 3px 2px gray;
+  color: #111111;
+
 }
 
 .servicesinfo {
@@ -319,6 +331,7 @@ img:hover {
   margin-left: 17px;
   font: bolder;
   gap: 15px;
+  
 }
 
 .servicesinfo h2 {
@@ -336,6 +349,8 @@ img:hover {
   margin-left: 65px;
   margin-top: 17px;
   height: 50vh;
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
+
 }
 
 .valuation {
@@ -348,6 +363,8 @@ img:hover {
   line-height: 30px;
   border: 2px solid;
   border-radius: 10px 10px;
+  background-image: linear-gradient(to top left, rgba(217, 159, 159, 0.6) 0%, rgba(81, 88, 133, 0.9) 100%);
+
 }
 
 .valuation ul {
@@ -362,8 +379,9 @@ footer {
   width: 100%;
   color: white;
   margin: 25px 0;
-  background-color: gray;
+  background-color:#2F4454;
   margin-top: 55px;
+
 }
 
 .newsletter {
