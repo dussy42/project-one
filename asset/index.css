@@ -68,7 +68,7 @@ main h1 {
   padding-top: 15px;
   padding-left: 15px;
   text-shadow: 3px 2px gray;
-  background-image: url(/asset/carousel.jpg);
+  background-image: url(./carousel.jpg);
   background-size: cover;
   height: 10vh;
   width: 100%;
@@ -210,7 +210,7 @@ img:hover {
 
 /*Here style  is applied to the about section with a background image while about is untop with an animation and detail also*/
 .grid {
-  background-image: url(/asset/carousel.jpg);
+  background-image: url(./carousel.jpg);
   background-size: cover;
   height: 15vh;
   margin-top: 5px;
@@ -291,7 +291,7 @@ img:hover {
   color: goldenrod;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-image: url(/asset/serviceslanding.jpg);
+  background-image: url(./serviceslanding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
