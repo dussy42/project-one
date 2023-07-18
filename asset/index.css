@@ -529,7 +529,7 @@ footer .contact {
 
   nav {
     width: 100%;
-    height: 17vh;
+    height: 12vh;
   }
 }
 
@@ -739,7 +739,7 @@ footer .contact {
   }
 
   nav {
-    height: 17vh;
+    height: 12vh;
   }
 
   nav > h2 {
@@ -759,12 +759,12 @@ footer .contact {
     font-weight: bold;
   }
   nav {
-    height: 15vh;
+    height: 12vh;
   }
 
   nav > h2 {
     width: 25%;
-    font-size: large;
+    font-size:medium;
   }
   main h1 {
     font-size: large;
@@ -788,23 +788,103 @@ footer .contact {
 
 @media only screen and (max-width: 590px) {
   nav {
-    height: 15.5vh;
+    height: 12vh;
   }
 
   nav > h2 {
     width: 27%;
-    font-size: large;
+    font-size: medium;
   }
   main h1 {
     font-size: large;
   }
 
-  .details ul {
-    line-height: 31px;
+  .Listings {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 170vh;
+    width: 100%;
+    overflow: initial;
+  }
+
+  .more-img {
+    overflow: scroll;
+  }
+  .more-img img {
+    width: 42%;
+    height: 45vh;
+    padding-left: 3px;
+  }
+
+  .more-img img:nth-last-child(1) {
+    width: 42%;
+  }
+
+  .flexcontent img:nth-child(1) {
+    height: 50vh;
+    width: 100%;
+    flex-grow: 0;
+    padding-top: 20px;
+    float: none;
+    padding-right: 7px;
+  }
+
+  .flex > img {
+    float: none;
+    width: 100%;
+    height: 85vh;
+    padding-inline-end: 9px;
+  }
+
+  main {
+    height: 230vh;
+  }
+
+  .katampe-properties {
+    height: 52vh;
+    width: 100%;
+    margin-top: 119px;
+    margin-right: 7px;
+    padding-left: 15px;
+    margin-left: 2px;
+    display: flex;
+    overflow: scroll;
+  }
+  .katampe-properties > img {
+    width: 42%;
+    height: 40vh;
+  }
+  .katampe-properties img:nth-last-child(1) {
+    width: 42%;
+  }
+
+  .details {
+    line-height: 30px;
+    font-weight: bolder;
+    top: 210px;
+    float: none;
+    margin-right: 50px;
+    width: 100%;
+    height: 40vh;
   }
 
   .aside {
-    line-height: 25px;
+    width: 100%;
+    height: 90vh;
+    color: goldenrod;
+    font: 1em;
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 36px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: none;
+  }
+  .more-about {
+    height: 133vh;
   }
 
   .newsletter {
@@ -831,40 +911,39 @@ footer .contact {
 }
 
 @media only screen and (max-width: 560px) {
-  .details ul {
-    line-height: 25px;
-  }
+
   .flex > img {
-    width: 56%;
+    width: 100%;
   }
 
   nav > a {
     margin-left: 40px;
+    font-size: small;
   }
   nav {
-    height: 16vh;
+    height: 12vh;
   }
   nav > h2 {
-    width: 30%;
+    width: 25%;
+    font-size: small;
   }
-  .aside {
-    line-height: 22px;
-  }
+ 
 }
 
 @media only screen and (max-width: 503px) {
-  .flex > img {
-    width: 54%;
-  }
-  .details ul {
-    line-height: 20px;
-  }
+  
   nav > a {
     margin-left: 28px;
   }
 
   nav {
-    height: 17vh;
+    height: 12vh;
+  }
+  
+  .Listings {
+    
+    height: 176vh;
+    
   }
 }
 
@@ -883,10 +962,6 @@ footer .contact {
   .aside {
     line-height: 16px;
     padding-left: 17px;
-  }
-
-  .flexcontent img:nth-child(1) {
-    width: 53%;
   }
 
   .valuation {
@@ -915,15 +990,14 @@ footer .contact {
   }
 
   nav {
-    height: 18vh;
+    height: 12vh;
   }
+
   .details ul {
     line-height: 17px;
   }
 
-  .flex > img {
-    width: 51%;
-  }
+  
 
   .more-about {
     height: 110vh;
@@ -947,7 +1021,7 @@ footer .contact {
 
   nav > a {
     margin-left: 13px;
-    margin-top: 40px;
+  
   }
 }
 
@@ -956,7 +1030,7 @@ footer .contact {
     margin-top: 20px;
     padding-top: 5px;
     padding-left: 10px;
-    height: 160vh;
+    height: 170vh;
     width: 100%;
     overflow: initial;
   }
@@ -1075,14 +1149,11 @@ footer .contact {
   }
 
   nav > a {
-    margin-left: 3px;
+    margin-left: 9px;
   }
 
   nav {
-    height: 20vh;
-  }
-  main h1 {
-    margin-top: 27px;
+    height: 12vh;
   }
 
   .about-right {
@@ -1125,6 +1196,14 @@ footer .contact {
     margin-top: 105px;
   }
 }
+@media only screen and (max-width: 345px) {
+  nav >h2{
+    width:26%;
+  }
+  nav{
+    height: 12vh;
+  }
+}
 
 @media only screen and (max-width: 354px) {
   .more-about{
@@ -1132,10 +1211,14 @@ footer .contact {
   }
 }
 @media only screen and (max-width: 337px) {
-  nav {
-    height: 22vh;
+  main h3 {
     font-size: medium;
-  }
+    padding-inline-end: 5px;
+}
+.Listings h2 {
+  font-weight: bold;
+  font-size: medium;
+}
 
   .about-right {
     margin-top: 105px;
