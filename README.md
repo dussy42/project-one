@@ -1,4 +1,5 @@
-﻿# project-one
+
+ # project-one
 This Realtor website [Realtor](https://dussy42.github.io/project-one/) is mainly html and css based showing what my real estate firm (Momoh estate surveyor and valuer ) has to offer potential clients majorly in real estate needs and investment appraisal. Potential client visiting this website will benefit from wealth of experience and reputation we have in the real estate industry in property valuation, property management and agency.
 
 ![Screenshot1440px](documentation/Screenshot1440px.png)
@@ -15,7 +16,14 @@ To the right is in the navigation is Home, About and Services link
 The navigation is well structured to make it easier for potential clients to navigate with good color combination and font.<br>
  ![nav](documentation/nav.png)
 
+# User Experience (UX)
+  Key information for the app this section provides insight into the UX process, focusing on who the app is for, the main aims of the project and how the app can help users meet their needs
 
+# Project goals:
+To enable potential user have the best of experience in real estate services
+To give the user to view featured properties
+To allow use read about what we do and contact us to render services
+To update the potential user of lastest development through the subscribe to newsletter form
 
 ## 2 CONTENTS <br>
 
