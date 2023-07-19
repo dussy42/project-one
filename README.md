@@ -21,12 +21,12 @@ The navigation is well structured to make it easier for potential clients to nav
 
 
 
-# 1 The first here is the 
+# 1 Featured Listing 
 FEATURED PROPERTIES as the header on the top left corner, below that is huge image of a property at katampe and to the right is brief description of this property(features,location, value) and below it is segmented picture of the other views of the property. <br>
 
  ![featuredlistings](documentation/featured.png)
 
-# 2 Secondly
+# 2 Properties-view
 Similar lay-out of the above is common to this other luxury property at katampe abuja with a main image to the left and to the right is the detailed information(address, features, value) about this property followed below by side-view and interior of the property stacked side by side. <br>
  ![frontview](documentation/main.png)
   ![interiorview](documentation/interior.png)
