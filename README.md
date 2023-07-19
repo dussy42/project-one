@@ -20,9 +20,9 @@ The navigation is well structured to make it easier for potential clients to nav
   Key information for the app this section provides insight into the UX process, focusing on who the app is for, the main aims of the project and how the app can help users meet their needs
 
 # Project goals:
-To enable potential user have the best of experience in real estate services
-To give the user to view featured properties
-To allow use read about what we do and contact us to render services
+To enable potential user have the best of experience in real estate services <br>
+To give the user to view featured properties <br>
+To allow use read about what we do and contact us to render services <br>
 To update the potential user of lastest development through the subscribe to newsletter form
 
 ## 2 CONTENTS <br>
