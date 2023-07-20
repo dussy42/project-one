@@ -70,11 +70,15 @@ Similar lay-out of the above is common to this other luxury property at katampe 
  W3C was used to validate my html while jigsaw was used for css and both turn out to be no error.Be that as it may, i affrirm  upon using lighthouse in devtools and wave that the website is accessibile with legible fonts and well lighted colors
 
  # STEPS TO VALIDATE
- <br>
+
+ # W3C 
  Copied the html and css entirely from vscode <br>
  Pasted the above into wsc html & css url <br>
  There were few errors at first but went to correct them
+
+ 
    ![htmlvalidate](documentation/w3chtml.png)
+   
    ![cssvalidate](documentation/w3ccss.png)
 
  # lighthouse testing
@@ -82,6 +86,7 @@ Similar lay-out of the above is common to this other luxury property at katampe 
   Used chrome browser to preview my codes <br>
   Then click on the developer tools to get directory to lighthouse <br>
   The result below is aftermath of using lighthouse for this project
+  
  ![Lighthouse](documentation/lighthouse.png)
  
  # Wave testing
