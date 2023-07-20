@@ -13,7 +13,7 @@ Here we have the name of the realtor company at the left-top corner(Momoh estate
 
 To the right is in the navigation is Home, About and Services link
 
-The navigation is well structured to make it easier for potential clients to navigate with good color combination and font.<br>
+The navigation is well structured to make it easier for potential clients to navigate with good color combination and font.
  ![nav](documentation/nav.png)
 
 # User Experience (UX)
@@ -75,8 +75,7 @@ Similar lay-out of the above is common to this other luxury property at katampe 
  Pasted the above into wsc html & css url <br>
  There were few errors at first but went to correct them
    ![htmlvalidate](documentation/w3chtml.png)
-  
-  ![cssvalidate](documentation/w3ccss.png)
+   ![cssvalidate](documentation/w3ccss.png)
 
  # lighthouse testing
  <br>
