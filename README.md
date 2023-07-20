@@ -1,4 +1,5 @@
-﻿# project-one
+
+ # project-one
 This Realtor website [Realtor](https://dussy42.github.io/project-one/) is mainly html and css based showing what my real estate firm (Momoh estate surveyor and valuer ) has to offer potential clients majorly in real estate needs and investment appraisal. Potential client visiting this website will benefit from wealth of experience and reputation we have in the real estate industry in property valuation, property management and agency.
 
 ![Screenshot1440px](documentation/Screenshot1440px.png)
@@ -15,18 +16,25 @@ To the right is in the navigation is Home, About and Services link
 The navigation is well structured to make it easier for potential clients to navigate with good color combination and font.<br>
  ![nav](documentation/nav.png)
 
+# User Experience (UX)
+  Key information for the app this section provides insight into the UX process, focusing on who the app is for, the main aims of the project and how the app can help users meet their needs
 
+# Project goals:
+To enable potential user have the best of experience in real estate services <br>
+To give the user to view featured properties <br>
+To allow use read about what we do and contact us to render services <br>
+To update the potential user of lastest development through the subscribe to newsletter form
 
 ## 2 CONTENTS <br>
 
 
 
-# 1 The first here is the 
+# 1 Featured Listing 
 FEATURED PROPERTIES as the header on the top left corner, below that is huge image of a property at katampe and to the right is brief description of this property(features,location, value) and below it is segmented picture of the other views of the property. <br>
 
  ![featuredlistings](documentation/featured.png)
 
-# 2 Secondly
+# 2 Properties-view
 Similar lay-out of the above is common to this other luxury property at katampe abuja with a main image to the left and to the right is the detailed information(address, features, value) about this property followed below by side-view and interior of the property stacked side by side. <br>
  ![frontview](documentation/main.png)
   ![interiorview](documentation/interior.png)
