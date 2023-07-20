@@ -1001,7 +1001,7 @@ footer .contact {
   }
 
   nav {
-    height: 13vh;
+    height: 12vh;
   }
 
   .details ul {
@@ -1160,7 +1160,7 @@ footer .contact {
 
 @media only screen and (max-width: 376px) {
   nav {
-    height: 13vh;
+    height: 12vh;
     font-size: medium;
   }
 
@@ -1206,12 +1206,11 @@ footer .contact {
   }
 }
 @media only screen and (max-width: 368px) {
- 
-
   .about-right {
     margin-top: 105px;
   }
 }
+
 @media only screen and (max-width: 345px) {
   nav >h2{
     width:26%;
@@ -1224,6 +1223,7 @@ footer .contact {
     height: 141vh;
   }
 }
+
 @media only screen and (max-width: 337px) {
   main h3 {
     font-size: medium;
