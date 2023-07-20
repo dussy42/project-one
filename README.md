@@ -69,7 +69,7 @@ Similar lay-out of the above is common to this other luxury property at katampe 
 	
  W3C was used to validate my html while jigsaw was used for css and both turn out to be no error.Be that as it may, i affrirm  upon using lighthouse in devtools that the website is accessibile with legible fonts and well lighted colors
 
- ![Lighthouse](asset/lighthouse.png)
+ ![Lighthouse](documentation/lighthouse.png)
   ![Wave](documentation/wave.png)
 
 
