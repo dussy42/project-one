@@ -58,7 +58,6 @@ main {
   height: 184vh;
   width: 100%;
   padding-top: 87px;
-  border: 2px auto;
   border-radius: 15px 15px;
   background-color:#1F2833 ;
 }
@@ -151,7 +150,6 @@ img:hover {
   padding-left: 10px;
   height: 175vh;
   width: 100%;
-  border: 2px auto;
   background-color: #182628;
   border-radius: 15px 15px;
   overflow: hidden;
@@ -934,7 +932,7 @@ footer .contact {
     height: 12vh;
   }
   nav > h2 {
-    width: 27\%;
+    width: 27%;
     font-size: small;
   }
  
